@@ -1,0 +1,156 @@
+.footer-top-wrapper {
+  padding: 23px 0px;
+  background: #282B30;
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  width: 189px;
+  margin-left: 14px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+
+.footer-top-text {
+  width: 360px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #98A4B7;
+}
+
+.market {
+  display: flex;
+}
+
+.market img:nth-child(1) {
+  display: block;
+  margin-right: 15px;
+}
+
+.footer-middle-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-middle {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 18px;
+}
+
+.more3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 120px;
+  margin: auto;
+  bottom: 2%;
+}
+
+.more {
+  width: 140px;
+}
+
+.more::before {
+  position: absolute;
+  width: 15px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 15px;
+  content: "";
+  background-image: url("../../Assets//img/svg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.more3::before {
+  right: 18px;
+}
+
+.footer-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 29px;
+  color: #878F99;
+}
+
+.footer-title {
+  position: relative;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+svg {
+  position: absolute;
+  left: -6%;
+  top: 18%;
+}
+
+.first svg {
+  fill: rgb(0, 94, 8);
+}
+
+.second svg {
+  fill: rgb(238, 255, 0);
+}
+
+.third svg {
+  fill: rgb(211, 10, 10);
+}
+
+.four svg {
+  fill: rgb(211, 10, 177);
+}
+
+.five svg {
+  fill: rgb(10, 171, 211);
+}
+
+.footer-title:nth-of-type(2) {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.footer-title:nth-of-type(1) {
+  margin-bottom: 15px;
+}
+
+.footer-middle-wrapper {
+  padding-top: 52px;
+  padding-bottom: 30px;
+  background: #33383C;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 27px;
+  border-top: 1px solid #4C565E;
+}
+
+.active {
+  font-size: 15px;
+  line-height: 18px;
+  color: #05F3B3;
+}

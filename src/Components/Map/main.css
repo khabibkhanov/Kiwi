@@ -1,0 +1,87 @@
+.map-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.map-top img:not(:nth-child(5n)) {
+ margin-right: 38px;
+ margin-bottom: 23px;
+}
+.map {
+  width: 750px;
+  padding-top: 10px;
+  border-top: 1px solid #979797;
+}
+.map-top img:nth-child(5n) {
+  margin-bottom: 23px;
+}
+.map-text {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.55;
+}
+.map-title {
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000
+}
+.map-select {
+  margin-bottom: 30px;
+}
+.map-select select{
+  margin-right: 108px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  border-bottom: 1px solid #979797;
+  color: #000000;
+}
+.map-select label {
+  display: block;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.map-select {
+  display: flex;
+}
+.map-form label {
+  display: block;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.map-form input {
+  width: 50%;
+  margin-bottom: 14px;
+}
+.btn-green {
+ margin-right: 67px;
+ padding: 20px 45px;
+ background: #19D476;
+ border-radius: 13px;
+ font-weight: 500;
+ font-size: 19px;
+ line-height: 23px;
+ color: #000000;
+}
+a.href {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #4E72CA;
+}
+.map {
+  padding-bottom: 80px;
+}
+.btn__wrapper {
+  margin-top: 35px;
+}

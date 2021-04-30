@@ -1,0 +1,14 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card-container-row {
+    display: flex;
+    width: 100%;    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}

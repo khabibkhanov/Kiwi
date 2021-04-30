@@ -1,0 +1,25 @@
+:root {
+  --index1: 0;
+}
+
+.slider-wrapper1.big {
+  width: 95vw;
+  margin: auto;
+}
+
+.slider-wrapper1 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  transition: all linear 0.5s;
+  z-index: -1;
+}
+
+.slider {
+  flex-shrink: 0;
+  transform: translate(calc(var(--index1)*100%));
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}

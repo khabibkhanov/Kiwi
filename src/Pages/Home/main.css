@@ -1,0 +1,247 @@
+.card-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  z-index: -1
+}
+
+.card-img {
+  display: block;
+  width: 300px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-bottom {
+  padding: 15px;
+}
+
+.card {
+  width: 262px;
+  margin-bottom: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 6px;
+}
+
+.anything {
+  width: 100%;
+}
+
+.card-title {
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.popular-goods {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #D5D5D5;
+}
+
+.popular-link.active {
+  font-size: 24px;
+  line-height: 30px;
+  color: #4E72CA;
+}
+
+.popular-link.active::after {
+  content: ""; 
+  display: block; 
+  margin: 0 auto; 
+  width: 80%; 
+  bottom: 0;
+  padding-top: 10px; 
+  border-bottom: 3px solid #4E72CA; 
+}
+
+.popular-link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  position: relative;
+  bottom: -5px;
+  margin-right: 77px;
+  color: #9B9B9B;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+}
+
+.popular-link::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  transition: all ease 0.5s;
+  padding-top: 10px;
+  border-bottom: 3px solid transparent; 
+}
+
+.card-time {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  color: #4A4A4A;
+}
+
+.card-price {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.more {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+  line-height: 18px;
+  color: #4E72CA;
+}
+
+.card-wrapper {
+  position: relative;
+  padding-bottom: 48px;
+  z-index: -1
+}
+
+.card-wrapper.computer {
+  margin-bottom: 62px;
+}
+
+.card-wrapper::before {
+  position: absolute;
+  content: "";
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-bottom: 2px solid rgba(182, 202, 251, 0.606827);
+}
+
+.slider-img {
+  width: 359px;
+  height: 240px;
+  object-fit: cover;
+}
+
+.slider-wrapper1 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  transition: all linear 0.5s;
+  z-index: -1;
+}
+
+.slider {
+  flex-shrink: 0;
+  transform: translate(calc(var(--index1)*100%));
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.big-slider {
+  position: relative;
+  background: rgba(182, 202, 251, 0.159986);
+  box-shadow: inset 0px 21px 13px rgba(182, 202, 251, 0.225402);
+  z-index: 1
+}
+
+.next1 {
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  font-size: 22px;
+  background-color: transparent;
+}
+
+.prev1 {
+  position: absolute;
+  left: 3%;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  font-size: 22px;
+  background-color: transparent;
+}
+
+.small-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 12px;
+  border-bottom: 1px solid rgba(182, 202, 251, 0.606827);
+}
+
+.section7-top {
+  display: flex;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #D5D5D5;
+}
+.section7 {
+  margin-top: 30px;
+  padding-bottom: 25px;
+}
+.more2 {
+  position: relative;
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  bottom: 0;
+}
+.section-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  position: relative;
+  bottom: -5px;
+  margin-right: 95px;
+  color: #9B9B9B;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+}
+
+.section-text::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  transition: all ease 0.5s;
+  padding-top: 10px;
+  border-bottom: 3px solid transparent; 
+}
+
+.section-text.active {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  color: #4E72CA;
+}
+
+.section-text.active::after {
+  content: ""; 
+  display: block; 
+  margin: 0 auto; 
+  width: 80%; 
+  bottom: 0;
+  padding-top: 10px; 
+  border-bottom: 3px solid #4E72CA; 
+}

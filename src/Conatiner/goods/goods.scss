@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: none;
+    flex-direction: column;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.card-top {
+    height: 262px;
+    width: 190px;
+}
+
+.card-img {
+    height: 262px !important;
+    width: 190px !important;
+    object-fit: contain !important;
+}
+
+.popular-goods {
+    z-index: 113;
+    position: relative;
+}
+
+.link-single {
+    margin: 10px 0;
+    display: block;
+}
